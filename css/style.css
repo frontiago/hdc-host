@@ -8,7 +8,9 @@ body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: #333;
 }
 
@@ -83,9 +85,9 @@ nav {
     position: relative;
 }
 
-.main-banner h1, 
+.main-banner h1,
 .main-banner p {
-    color: #FFF;    
+    color: #FFF;
     text-align: center;
     font-weight: bold;
 }
@@ -105,7 +107,7 @@ nav {
     margin-bottom: 35px;
 }
 
-.specialties-container ul{
+.specialties-container ul {
     display: flex;
     width: 90%;
     position: relative;
@@ -114,13 +116,13 @@ nav {
 }
 
 .specialties-container ul li {
-    flex:1 1 200px;
+    flex: 1 1 200px;
     list-style: none;
     text-align: center;
     padding: 20px;
 }
 
-.specialties-container  ul li h3 {
+.specialties-container ul li h3 {
     margin-bottom: 25px;
     color: #333;
 }
@@ -269,7 +271,7 @@ nav {
 
 .searchdomain-container input[type='submit'] {
     margin-bottom: 25px;
-    width: 20%;
+    min-width: 20%;
     padding: 25px;
     font-size: 18px;
     background-color: #2cc762;
@@ -288,7 +290,7 @@ nav {
     padding: 2rem 0 2rem 0;
 }
 
-.contact-container  h2{
+.contact-container h2 {
     font-size: 36px;
 }
 
@@ -297,7 +299,8 @@ nav {
     margin-bottom: 40px;
 }
 
-.contact-container input, .contact-container textarea{
+.contact-container input,
+.contact-container textarea {
     width: 200px;
     padding: 10px 20px;
     font-size: 16px;
@@ -335,7 +338,7 @@ footer {
     margin-top: 25px;
 }
 
-footer p {    
+footer p {
     color: #CCC;
     font-size: 16px;
 }
@@ -353,13 +356,17 @@ footer p {
 }
 
 @media screen and (max-width: 900px) {
-    .plans-container, .specialties-container ul {
+
+    .plans-container,
+    .specialties-container ul {
         flex-wrap: wrap;
-    }   
+    }
 }
 
 @media screen and (max-width: 576px) {
-    html, body {
+
+    html,
+    body {
         overflow-x: hidden;
     }
 
@@ -382,11 +389,4 @@ footer p {
     .searchdomain-container {
         padding: 3rem 2rem;
     }
-
-    .container .searchdomain-container input {
-        width: 100%;
-        box-sizing: border-box;
-    }
 }
-
-
