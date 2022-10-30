@@ -1,6 +1,7 @@
 ## HDC Host
-### A cloud host landing page in html, css and javascript, a static website.
+- A cloud host landing page
+- HTML, CSS, Javascript
 
-[View Online](https://thiagowfer.github.io/hdc-host)
+### 👁️ [View Online](https://thiagowfer.github.io/hdc-host)
 
 ![Print](./print-hdc-host.png)
