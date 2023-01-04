@@ -2,6 +2,6 @@
 - A cloud host landing page
 - HTML, CSS, Javascript
 
-### 👁️ [View Online](https://thiagowfer.github.io/hdc-host)
+### 👁️ [View Online](https://frontiago.github.io/hdc-host)
 
 ![Print](./print-hdc-host.png)
